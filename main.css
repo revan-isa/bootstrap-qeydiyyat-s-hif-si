@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+.wave-container {
+  width: 100%;
+  position: relative;
+  background: #d43b4f;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wave-container > svg {
+  display: block;
+}
+
+label {
+  font-family: Poppins;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.radio {
+  font-size: 1.2em;
+}
+
+yuk {
+  height: 100vh;
+}
